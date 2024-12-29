@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Execute Bash Script') {
             steps {
-                sh './bash_script_project/list_files.sh'
+                sh './20216104/list_files.sh'
             }
         }
     }
